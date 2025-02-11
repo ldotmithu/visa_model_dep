@@ -3,7 +3,6 @@ import pandas as pd
 import joblib
 import numpy as np
 from pathlib import Path
-from mlproject.pipeline.prediction_pipeline import prediction_pipeline
 
 
 preprocess = joblib.load(Path("preprocess.pkl")) 
